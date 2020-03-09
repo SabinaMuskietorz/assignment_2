@@ -309,41 +309,77 @@ form button[type="submit"]:hover {
   background: linear-gradient(to right, #1ebf05 0%,#013d07 100%);
 }
 /*general styles */
+.hamburger {
+  background:none;
+  position:absolute;
+  top:0;
+  left:0;
+  line-height:45px;
+  padding:5px 15px 0px 15px;
+  color:#999;
+  border:0;
+  font-size:1.4em;
+  font-weight:bold;
+  cursor:pointer;
+  outline:none;
+  z-index:10000000000000;
+}
+.cross {
+  background:none;
+  position:absolute;
+  top:0px;
+  left:0;
+  padding:7px 15px 0px 15px;
+  color:#999;
+  border:0;
+  font-size:3em;
+  line-height:65px;
+  font-weight:bold;
+  cursor:pointer;
+  outline:none;
+  z-index:10000000000000;
+}
+.menu{z-index:1000000; font-weight:bold; font-size:0.8em; width:30%; background:#f1f1f1;  position:absolute; text-align:right; font-size:12px;}
+.menu ul {margin: 0; padding: 0; list-style-type: none; list-style-image: none;}
+.menu li {display: block;   padding:15px 0 15px 0; border-bottom:#dddddd 1px solid;}
+.menu li:hover{display: block;    background:#ffffff; padding:15px 0 15px 0; border-bottom:#dddddd 1px solid;}
+.menu ul li a { text-decoration:none;  margin: 0px; color:#666;}
+.menu ul li a:hover {  color: #666; text-decoration:none;}
+.menu a{text-decoration:none; color:#666;}
+.menu a:hover{text-decoration:none; color:#666;}
+
+
+
 ul {
-overflow: auto;
-list-style-type: none;
-position: relative;
-text-align: center;
-bottom: 35%;
-color: black;
-}
-.menu {
+  overflow: auto;
+  list-style-type: none;
   position: relative;
-  top: 20px;
-  font-family: 'Roboto Slab', serif;
-  font-size: 2em;
- }
-li {
-  display: inline;
-  margin-right: 0px;
-  padding: 0 20px;
-  }
-li:last-child {
-  border-right: none;
-}
-li a {
-  text-decoration: none;
+  text-align: center;
+  bottom: 35%;
   color: black;
-  text-transform: uppercase;
-  transition: all 0.5s ease;
-}
-li a:hover {
-  color: #ef4fa6;
-}
-li.active a {
-  font-weight: bold;
-  color: #333;
-}
+  }
+  
+  li {
+    display: inline;
+    margin-right: 0px;
+    padding: 0 20px;
+    }
+  li:last-child {
+    border-right: none;
+  }
+  li a {
+    text-decoration: none;
+    color: black;
+    text-transform: uppercase;
+    transition: all 0.5s ease;
+  }
+  li a:hover {
+    color: #ef4fa6;
+  }
+  li.active a {
+    font-weight: bold;
+    color: #333;
+  }
 .social :hover {
   color:#ef4fa6;
 }
