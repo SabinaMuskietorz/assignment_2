@@ -5,7 +5,7 @@
   font-weight: bold;
   position: relative;
   text-align: center;
-  padding-top: 8%;
+  padding-top: 10%;
   color: black;
     }
 .sechead {
@@ -193,7 +193,7 @@ h3 {
 }
 form {
   margin-top: 0;
-  padding-top: 11%;
+  /*padding-top: 11%;*/
 }
 .input-block {
   width: 15%;
@@ -249,7 +249,8 @@ form button[type="submit"] {
   border: 0px;
   outline: 0px;
   color: #fff;
-  background-color: #ef4fa6;
+  
+  background-color: #9a1750;
   text-transform: uppercase;
   font-family: 'Roboto Slab', serif;
   font-size: 18px;
@@ -410,7 +411,7 @@ ul {
     transition: all 0.5s ease;
   }
   li a:hover {
-    color: #ef4fa6;
+    color: #9a1750;
   }
   li.active a {
     font-weight: bold;
@@ -420,5 +421,5 @@ ul {
 
 
 .social :hover {
-  color:#ef4fa6;
+  color: #9a1750;
 }
