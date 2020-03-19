@@ -5,7 +5,8 @@
   font-weight: bold;
   position: relative;
   text-align: center;
-  padding-top: 13%;
+  padding-top: 8%;
+  color: black;
     }
 .sechead {
   font-family: 'Roboto Slab', serif;
@@ -14,17 +15,20 @@
   position: relative;
   text-align: center;
   padding-top: 2%;
+  color: black;
 }
 i {
 color: black;
 font-size: 3.5vw;
 display: inline;
 list-style-type: none;
-}.social {
+}
+.social {
   list-style-type: none;
   text-decoration: none;
   position: relative;
   padding-top: 3%;
+  text-align: center;
    }
 /*about styles*/
 .resume {
@@ -305,11 +309,11 @@ form button[type="submit"]:hover {
   background: linear-gradient(to right, #1ebf05 0%,#013d07 100%);
 }
 /*general styles */
-/*nav{
-  background:#333;
+nav{
+  /*background:#333;*/
   color:white;
   width:100%;
-}*/
+}
 
 /*nav .row{
   
@@ -329,6 +333,7 @@ nav .hamburger-menu.open{
   padding:2.5vh 1vw;
   cursor: pointer;
   color:white;
+  position: relative;
 }
 
 .hamburger:hover{
@@ -349,7 +354,10 @@ nav .hamburger-menu.open{
 .menu{
   padding:0 0vw;
   list-style-type: none;
-  width:100%;
+  /*background:#9a1750;*/
+  /*width:100%;*/
+  font-weight: bold;
+  font-size: 1.5em;
 }
 
 .menu li{
@@ -364,6 +372,7 @@ nav .hamburger-menu.open{
 .menu li.active a{
   color:#fff;
   font-size:1.5em;
+  
 }
 
 a{
@@ -381,7 +390,7 @@ ul {
   overflow: auto;
   list-style-type: none;
   position: relative;
-  text-align: center;
+  /*text-align: center;*/
   bottom: 35%;
   color: black;
   }
@@ -405,7 +414,7 @@ ul {
   }
   li.active a {
     font-weight: bold;
-    color: #333;
+    color: black;
   }
 
 
