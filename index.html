@@ -14,28 +14,34 @@
   and https://www.awwwards.com/sites/sw-property-estate-agents-->
   <body>
     <img class="back" src="images/desk-laptop-macbook-pro-working-69432.jpg" alt="background picture"><!--from Pexels-->
-    <button class="hamburger"></button>
-    <button class="cross"></button>
-    <div class="menu">
-            <ul>
-              <a href="https://sabinamuskietorz.github.io/index.html">Home</a>
-              <a href="https://sabinamuskietorz.github.io/cv.html">About</a>
-              <a href="https://sabinamuskietorz.github.io/portfolio.html">Portfolio</a>
-              <a href="https://sabinamuskietorz.github.io/contact.html">Contact</a>
-            </ul>
-          </div>
-  
-         <header class="mainhead"> Hi, I'm Sabina </header>
+    <div class="column">
+      <nav class="column">
+        <div class="row">
+         <div onclick="toggleMenu()" class="hamburger">
+          <i id="menuIcon" class="fas fa-bars fa-2x"></i>
+         </div>
+        </div>
+        <div id="menu" class="row hamburger-menu open">
+          <ul class="column menu">
+            <li class="active"><a href="https://sabinamuskietorz.github.io/index.html">Home</a></li>
+            <li><a href="https://sabinamuskietorz.github.io/cv.html">About</a></li>
+            <li><a href="https://sabinamuskietorz.github.io/portfolio.html">Portfolio</a></li>
+            <li><a href="https://sabinamuskietorz.github.io/contact.html">Contact</a></li>
+          <ul>
+        </div>
+       </nav>
+       <main>
+      <header class="mainhead"> Hi, I'm Sabina </header>
           <p class="sechead">Junior Web-Developer</p>
           <!--way to contact me-->
-        <nav>
+        
            <ul class="social">
             <li><a href="mailto:sabinamuskietorz@gmail.com"> <i class="fas fa-envelope-square"></i></a></li>
               <li><a href="https://codepen.io/sabinamuskietorz"> <i class="fab fa-codepen"></i></a></li>
             <li><a href="https://github.com/SabinaMuskietorz"> <i class="fab fa-github-square"></i></a></li>
            <li><a href="https://www.linkedin.com/in/sabina-muskietorz-532b29b5/"> <i class="fab fa-linkedin"></i></a></li>
             </ul>
-          </nav>
-          <script type="text/javascript" src="styles/main.js"></script>
+       </main>
+      <script type="text/javascript" src="styles/main.js"></script>
     </body>
 </html>
