@@ -2,11 +2,11 @@
 .mainhead {
   /*float: right;*/
   font-family: 'Roboto Slab', serif;
-  font-size: 5em;
+  font-size: 4em;
   font-weight: bold;
   position: relative;
   text-align: center;
-  /*padding-top: 10%;*/
+  /*padding-top: 5%;*/
   color: black;
   display: flex;
   flex-direction: column;
@@ -15,14 +15,23 @@
 .sechead {
   /*float: right;*/
   font-family: 'Roboto Slab', serif;
-  font-size: 4em;
+  font-size: 2em;
   font-weight: bold;
   position: relative;
   text-align: center;
-  /*padding-top: 2%;*/
+  padding-top: 10%;
   color: black;
-  display: flex;
-  flex-direction: column;
+  /*display: flex;
+  flex-direction: column;*/
+}
+
+.underhead {
+  font-family: 'Roboto Slab', serif;
+  font-size: 2em;
+  font-weight: bold;
+  position: relative;
+  text-align: center;
+  color: black;
 }
 
 i {
@@ -35,11 +44,10 @@ i {
 .social {
   list-style-type: none;
   text-decoration: none;
-  /*position: relative;*/
-  /*padding-top: 3%;*/
-  /*text-align: center;*/
-  display: flex;
-  flex-direction: column;
+  position: relative;
+  padding-top: 3%;
+  overflow-y: hidden;
+
 }
 
 /*about styles*/
@@ -52,6 +60,9 @@ i {
 }
 
 .myphoto {
+  position: fixed;
+  right: 5%;
+  margin-top: 5%;
   border-style: none;
   /*border-radius: 100%;*/
   filter: grayscale(0);
@@ -72,33 +83,23 @@ i {
 
 }
 
-.mainheader {
-  text-transform: uppercase;
-  font-family: 'Roboto Slab', serif;
-  color: black;
-  font-size: 1.5em;
-  font-weight: bold;
-  float: right;
-
-}
-
 .resheader {
   text-transform: uppercase;
   font-family: 'Roboto Slab', serif;
   color: black;
-  font-size: 1.5em;
+  font-size: 1.2em;
   font-weight: bold;
 }
 
 .skeheader {
-  font-size: 1.5em;
+  font-size: 1.2em;
 }
 
 .skep {
-  font-size: 1.1em;
+  font-size: 1em;
 }
 
-.leftColumn {
+/*.leftColumn {
   width: 20%;
   float: left;
   margin-top: 5%;
@@ -106,32 +107,33 @@ i {
 }
 
 .rightColumn {
-  width: 80%;
+  width: 100%;
   float: right;
-  /*position: relative;
-      margin-top: 10%;*/
+  position: relative;
+      margin-top: 10%;
   text-align: center;
-}
+}*/
 
 /* background styles*/
 body {
+  position: relative;
   font-family: 'Roboto Slab', serif;
-  background: url("desk-laptop-macbook-pro-working-69432.jpg");
+  /*background: url("desk-laptop-macbook-pro-working-69432.jpg");*/
   background-size: cover;
   background-position: center;
-  background: #654ea3;
-  background: -webkit-linear-gradient(to right, #eaafc8, #654ea3);
-  background: linear-gradient(to right, #eaafc8, #654ea3);
+  background: #355C7D;
+  background: -webkit-linear-gradient(to right, #C06C84, #6C5B7B, #355C7D);
+  background: linear-gradient(to right, #C06C84, #6C5B7B, #355C7D);
 }
 
 /* how to use filter https://developer.mozilla.org/en-US/docs/Web/CSS/filter */
-.back {
+/*.back {
   width: 100%;
   height: 100%;
   position: fixed;
   filter: opacity(70%);
   margin: 0;
-}
+}*/
 
 /*portfolio styles*/
 :root {
@@ -147,14 +149,14 @@ hr {
 }
 
 .container {
-  width: 96rem;
-  margin: 2rem auto;
+  width: 80rem;
+  /*margin: 2rem auto;*/
   /*float: left;*/
-  margin-left: 3%;
+  margin-left: 15%;
 }
 
 .gallery-item {
-  max-width: 80%;
+  max-width: 100%;
   border-radius: 5px;
   box-shadow: 0 5px 20px rgba(0, 0, 0, 0.5);
   transition: all .3s;
@@ -391,7 +393,8 @@ form button[type="submit"]:hover {
 nav {
   /*background:#333;*/
   color: white;
-  /*width:100%;*/
+  width: 100%;
+  
 }
 
 /*nav .row{
@@ -402,6 +405,7 @@ nav .hamburger-menu {
   max-height: 0;
   overflow-y: hidden;
   transition: max-height 0.5s ease-in-out;
+  position: fixed;
 }
 
 nav .hamburger-menu.open {
@@ -416,7 +420,7 @@ nav .hamburger-menu.open {
 }
 
 .hamburger:hover {
-  color: #9a1750
+  color: #9a1750;
 }
 
 .row {
@@ -472,16 +476,16 @@ a {
 ul {
   overflow: auto;
   list-style-type: none;
-  position: relative;
-  /*text-align: center;*/
-  /*bottom: 35%;*/
+
+  text-align: center;
+  bottom: 35%;
   color: black;
 }
 
 li {
   display: inline;
-  margin-right: 0px;
-  padding: 0 20px;
+  margin-right: 10px;
+  padding: 5px 0px;
 }
 
 li:last-child {
@@ -504,7 +508,7 @@ li.active a {
   color: black;
 }
 
-
 .social :hover {
+  /*color: #9a1750;*/
   color: #9a1750;
 }

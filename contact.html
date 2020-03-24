@@ -1,25 +1,28 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <meta http-equiv="X-UA-Compatible" content="ie=edge">
-        <title>my portfolio site</title>
-        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-        <link href="https://fonts.googleapis.com/css?family=Roboto+Slab&display=swap" rel="stylesheet">
-        <link rel="stylesheet" href="styles/style.css">
-        <!--icons taken from font awesome-->
-    <script src="https://kit.fontawesome.com/9a30d6ec65.js" crossorigin="anonymous"></script>
-    </head>
-    <body>
-      <img class="back" src="images/desk-laptop-macbook-pro-working-69432.jpg" alt="background picture">
-      <div class="column">
-        <nav class="column">
-          <div class="row">
-           <div onclick="toggleMenu()" class="hamburger">
-            <i id="menuIcon" class="fas fa-bars fa-2x"></i>
-           </div>
-          </div>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>my portfolio site</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+    integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+  <link href="https://fonts.googleapis.com/css?family=Roboto+Slab&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles/style.css">
+  <!--icons taken from font awesome-->
+  <script src="https://kit.fontawesome.com/9a30d6ec65.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+  <!--<img class="back" src="images/desk-laptop-macbook-pro-working-69432.jpg" alt="background picture">-->
+  <div class="column">
+    <nav class="column">
+      <div class="row">
+        <div onclick="toggleMenu()" class="hamburger">
+          <i id="menuIcon" class="fas fa-bars fa-2x"></i>
+        </div>
+      </div>
       <nav>
         <div id="menu" class="row hamburger-menu open">
           <ul class="column menu">
@@ -29,36 +32,43 @@
             <li><a href="https://sabinamuskietorz.github.io/contact.html">Contact</a></li>
           </ul>
         </div>
-       </nav>
+      </nav>
       <!--A PEN BY foxeisen from codepen.io, added to my collection and modified-->
-        <form class="clear">
-          <h3> Get in touch now! </h3>
-          <div class="input-block">
-             <input id="name" type="text" required="required" />
-            <label for="name">Your Name</label>
-            <div class="border"></div>
-          </div>
-          <div class="input-block">
-            <input id="email" type="email" required="required" />
-            <label for="email">Your Email</label>
-            <div class="border"></div>
-          </div>
-          <div class="input-block">
-            <input id="subj" type="text" />
-            <label for="subj">Subject</label>
-            <div class="border"></div>
-          </div>
-          <div class="textarea-block">
-            <textarea id="msg" required="required"></textarea>
-            <label for="msg">Message</label>
-            <div class="border"></div>
-          </div>
-          <button type="submit">Send Message</button>
-        </form>
-      </div>
-      <script type="text/javascript" src="main.js"></script>
-      <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
-<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
-    </body>
+      <form class="clear">
+        <h3> Get in touch now! </h3>
+        <div class="input-block">
+          <input id="name" type="text" required="required" />
+          <label for="name">Your Name</label>
+          <div class="border"></div>
+        </div>
+        <div class="input-block">
+          <input id="email" type="email" required="required" />
+          <label for="email">Your Email</label>
+          <div class="border"></div>
+        </div>
+        <div class="input-block">
+          <input id="subj" type="text" />
+          <label for="subj">Subject</label>
+          <div class="border"></div>
+        </div>
+        <div class="textarea-block">
+          <textarea id="msg" required="required"></textarea>
+          <label for="msg">Message</label>
+          <div class="border"></div>
+        </div>
+        <button type="submit">Send Message</button>
+      </form>
+  </div>
+  <script type="text/javascript" src="main.js"></script>
+  <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+    integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous">
+  </script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+    integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous">
+  </script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+    integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous">
+  </script>
+</body>
+
 </html>
