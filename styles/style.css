@@ -4,20 +4,20 @@
   font-family: 'Roboto Slab', serif;
   font-size: 4em;
   font-weight: bold;
-  position: relative;
+  /*position: relative;*/
   text-align: center;
   /*padding-top: 5%;*/
   color: black;
-  display: flex;
-  flex-direction: column;
+  /*display: flex;
+  flex-direction: column;*/
 }
 
 .sechead {
   /*float: right;*/
   font-family: 'Roboto Slab', serif;
   font-size: 2em;
-  font-weight: bold;
-  position: relative;
+  /*font-weight: bold;*/
+  /*position: relative;*/
   text-align: center;
   padding-top: 10%;
   color: black;
@@ -29,7 +29,7 @@
   font-family: 'Roboto Slab', serif;
   font-size: 2em;
   font-weight: bold;
-  position: relative;
+  /*position: relative;*/
   text-align: center;
   color: black;
 }
