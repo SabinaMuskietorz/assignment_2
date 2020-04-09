@@ -1,35 +1,32 @@
 /*homepage styles */
 .mainhead {
-  /*float: right;*/
+
   font-family: 'Roboto Slab', serif;
   font-size: 4em;
   font-weight: bold;
-  /*position: relative;*/
+
   text-align: center;
-  /*padding-top: 5%;*/
+
   color: black;
-  /*display: flex;
-  flex-direction: column;*/
+
 }
 
 .sechead {
-  /*float: right;*/
+
   font-family: 'Roboto Slab', serif;
   font-size: 2em;
-  /*font-weight: bold;*/
-  /*position: relative;*/
+
   text-align: center;
   padding-top: 10%;
   color: black;
-  /*display: flex;
-  flex-direction: column;*/
+
 }
 
 .underhead {
   font-family: 'Roboto Slab', serif;
   font-size: 2em;
   font-weight: bold;
-  /*position: relative;*/
+
   text-align: center;
   color: black;
 }
@@ -64,11 +61,11 @@ i {
   right: 5%;
   margin-top: 5%;
   border-style: none;
-  /*border-radius: 100%;*/
+
   filter: grayscale(0);
   width: 10vw;
   float: right;
-  /*align-content: center;*/
+
   margin-right: 2em;
 }
 
@@ -99,20 +96,7 @@ i {
   font-size: 1em;
 }
 
-/*.leftColumn {
-  width: 20%;
-  float: left;
-  margin-top: 5%;
-  display: flex;
-}
 
-.rightColumn {
-  width: 100%;
-  float: right;
-  position: relative;
-      margin-top: 10%;
-  text-align: center;
-}*/
 
 /* background styles*/
 body {
@@ -151,7 +135,7 @@ hr {
   /*width: 80rem;*/
   /*margin: 2rem auto;*/
   /*float: left;*/
- margin-left: 15%;
+  margin-left: 15%;
 }
 
 .gallery-item {
@@ -390,22 +374,20 @@ form button[type="submit"]:hover {
 
 /*general styles */
 nav {
-  /*background:#333;*/
+
   color: white;
   width: 100%;
   position: fixed;
-  
+
 }
 
-/*nav .row{
-  
-}*/
+
 
 nav .hamburger-menu {
   max-height: 0;
   overflow-y: hidden;
   transition: max-height 0.5s ease-in-out;
-  
+
 }
 
 nav .hamburger-menu.open {
@@ -417,7 +399,7 @@ nav .hamburger-menu.open {
   padding: 2.5vh 2vw;
   cursor: pointer;
   color: white;
-  
+
 }
 
 .hamburger:hover {
@@ -437,11 +419,10 @@ nav .hamburger-menu.open {
 /* menu list */
 
 .menu {
-  /*padding:0 0vw;*/
+
   padding: 2.5vh 2vw;
   list-style-type: none;
-  /*background:#9a1750;*/
-  /*width:100%;*/
+
   font-weight: bold;
   font-size: 1.5em;
 }
@@ -510,9 +491,10 @@ li.active a {
 }
 
 .social :hover {
-  /*color: #9a1750;*/
+
   color: #9a1750;
 }
-main{
+
+main {
   padding: 3em 3em;
 }
