@@ -116,7 +116,6 @@ i {
 
 /* background styles*/
 body {
-  position: relative;
   font-family: 'Roboto Slab', serif;
   /*background: url("desk-laptop-macbook-pro-working-69432.jpg");*/
   background-size: cover;
@@ -149,10 +148,10 @@ hr {
 }
 
 .container {
-  width: 80rem;
+  /*width: 80rem;*/
   /*margin: 2rem auto;*/
   /*float: left;*/
-  margin-left: 15%;
+ margin-left: 15%;
 }
 
 .gallery-item {
@@ -394,6 +393,7 @@ nav {
   /*background:#333;*/
   color: white;
   width: 100%;
+  position: fixed;
   
 }
 
@@ -405,18 +405,19 @@ nav .hamburger-menu {
   max-height: 0;
   overflow-y: hidden;
   transition: max-height 0.5s ease-in-out;
-  position: fixed;
+  
 }
 
 nav .hamburger-menu.open {
   max-height: 100vh;
+  position: relative;
 }
 
 .hamburger {
   padding: 2.5vh 2vw;
   cursor: pointer;
   color: white;
-  position: relative;
+  
 }
 
 .hamburger:hover {
@@ -511,4 +512,7 @@ li.active a {
 .social :hover {
   /*color: #9a1750;*/
   color: #9a1750;
+}
+main{
+  padding: 3em 3em;
 }
