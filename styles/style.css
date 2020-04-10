@@ -135,7 +135,8 @@ hr {
   /*width: 80rem;*/
   /*margin: 2rem auto;*/
   /*float: left;*/
-  margin-left: 15%;
+  margin-left: 10%;
+  padding-right: 5%;
 }
 
 .gallery-item {
@@ -237,11 +238,12 @@ h3 {
 
 form {
   margin-top: 0;
-  /*padding-top: 11%;*/
+  padding-top: 11%;
+  margin-left: 10%;
 }
 
 .input-block {
-  width: 15%;
+  width: 40%;
   float: left;
   margin-left: 10%;
   margin-top: 5%;
@@ -258,7 +260,7 @@ form {
   border: none;
   outline: none;
   border-bottom: 2px solid #dddddd;
-  font-size: 16px;
+  font-size: 25px;
   font-family: inherit;
 }
 
