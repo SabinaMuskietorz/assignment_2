@@ -1,4 +1,4 @@
-let menuOpen = true;
+let menuOpen = false;
 
 function toggleMenu() {
   console.log('toggle menu');
