@@ -204,7 +204,7 @@ hr {
 /* form styles */
 .clear:after {
   content: "";
-  display: block;
+  display: flex;
   clear: both;
 }
 
@@ -252,7 +252,7 @@ form {
 
 .textarea-block {
   clear: both;
-  width: 70%;
+  width: 40%;
   position: relative;
   margin-left: 10%;
   margin-top: 5%;
