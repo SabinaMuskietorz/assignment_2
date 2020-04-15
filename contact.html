@@ -32,30 +32,32 @@
       </div>
     </nav>
     <!--A PEN BY foxeisen from codepen.io, added to my collection and modified-->
-    <form class="clear">
+    
       <h3> Get in touch now! </h3>
-      <div class="input-block">
-        <input id="name" type="text" required="required" />
-        <label for="name">Your Name</label>
-        <div class="border"></div>
+        <form class="clear">
+          <div class="input-block">
+            <input id="name" type="text" required="required" />
+            <label for="name">Your Name</label>
+            <div class="border"></div>
+          </div>
+          <div class="input-block">
+            <input id="email" type="email" required="required" />
+            <label for="email">Your Email</label>
+            <div class="border"></div>
+          </div>
+          <div class="input-block">
+            <input id="subj" type="text" />
+            <label for="subj">Subject</label>
+            <div class="border"></div>
+          </div>
+          <div class="textarea-block">
+            <textarea id="msg" required="required"></textarea>
+            <label for="msg">Message</label>
+            <div class="border"></div>
+          </div>
+          <button type="submit">Send Message</button>
+        </form>
       </div>
-      <div class="input-block">
-        <input id="email" type="email" required="required" />
-        <label for="email">Your Email</label>
-        <div class="border"></div>
-      </div>
-      <div class="input-block">
-        <input id="subj" type="text" />
-        <label for="subj">Subject</label>
-        <div class="border"></div>
-      </div>
-      <div class="textarea-block">
-        <textarea id="msg" required="required"></textarea>
-        <label for="msg">Message</label>
-        <div class="border"></div>
-      </div>
-      <button type="submit">Send Message</button>
-    </form>
   </div>
   <script src="main.js"></script>
   <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>

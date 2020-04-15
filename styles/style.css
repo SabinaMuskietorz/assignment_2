@@ -204,17 +204,19 @@ hr {
 /* form styles */
 .clear:after {
   content: "";
-  display: flex;
+  display: block;
   clear: both;
 }
 
 h3 {
   text-align: center;
+  
   color: black;
   text-transform: uppercase;
   font-family: 'Roboto Slab', serif;
   position: relative;
   font-size: 2em;
+  margin-top: 5%;
 }
 
 * {
@@ -223,16 +225,15 @@ h3 {
 }
 
 form {
-  margin-top: 0;
-  padding-top: 11%;
-  margin-left: 10%;
-}
+  padding-top: 60px;
+    width: 850px;
+    margin: 50px auto;
+  }
 
 .input-block {
-  width: 40%;
+  width: 31%;
   float: left;
-  margin-left: 10%;
-  margin-top: 5%;
+  margin-right: 3.3%;
   position: relative;
   margin-bottom: 60px;
 }
@@ -241,21 +242,19 @@ form {
   margin-right: 0px;
 }
 
-.input-block input {
+.input-block input{
   width: 100%;
   border: none;
   outline: none;
   border-bottom: 2px solid #dddddd;
-  font-size: 25px;
+  font-size: 16px;
   font-family: inherit;
 }
 
 .textarea-block {
   clear: both;
-  width: 40%;
+  width: 100%;
   position: relative;
-  margin-left: 10%;
-  margin-top: 5%;
 }
 
 .textarea-block textarea {
@@ -280,8 +279,8 @@ form {
   transition: all 0.2s linear 0s;
 }
 
-.textarea-block textarea[required="required"]+label:after,
-.input-block input[required="required"]+label:after {
+.textarea-block textarea[required="required"] + label:after,
+.input-block input[required="required"] + label:after {
   content: "*";
 }
 
@@ -300,7 +299,7 @@ form button[type="submit"] {
   display: block;
   cursor: pointer;
   transition: all 0.3s linear 0s;
-  position: relative;
+ 
 }
 
 /* hover and click effects */
