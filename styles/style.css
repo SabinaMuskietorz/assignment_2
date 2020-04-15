@@ -183,25 +183,30 @@ hr {
 @media (max-width: 500px) {
   .gallery-item {
     max-width: 30%;
-    grid-column: 2;
+    grid-column: 8;
     font-family: 'Roboto Slab', serif;
     text-align: left;
-    margin-left: 3%;
+    margin-left: 10%;
     margin-top: 6%;
   }
+
   #menu {
     background-color: #9a1750;
     width: fit-content;
-    
   }
-  #menuIcon {
-    margin-left: 5px;
+
+  .button {
+    float: left;
   }
+
+  .hamburger {
+    margin-left: 20px;
+  }
+
   form {
     display: flex;
     flex-direction: column;
   }
-  
 
   div.container,
   h1 {
@@ -223,7 +228,7 @@ hr {
 
 h3 {
   text-align: center;
-  
+
   color: black;
   text-transform: uppercase;
   font-family: 'Roboto Slab', serif;
@@ -239,9 +244,9 @@ h3 {
 
 form {
   padding-top: 60px;
-    width: 850px;
-    margin: 50px auto;
-  }
+  width: 850px;
+  margin: 50px auto;
+}
 
 .input-block {
   width: 31%;
@@ -255,7 +260,7 @@ form {
   margin-right: 0px;
 }
 
-.input-block input{
+.input-block input {
   width: 100%;
   border: none;
   outline: none;
@@ -292,8 +297,8 @@ form {
   transition: all 0.2s linear 0s;
 }
 
-.textarea-block textarea[required="required"] + label:after,
-.input-block input[required="required"] + label:after {
+.textarea-block textarea[required="required"]+label:after,
+.input-block input[required="required"]+label:after {
   content: "*";
 }
 
@@ -312,7 +317,7 @@ form button[type="submit"] {
   display: block;
   cursor: pointer;
   transition: all 0.3s linear 0s;
- 
+
 }
 
 /* hover and click effects */
@@ -379,7 +384,7 @@ nav {
   color: white;
   width: 100%;
   position: fixed;
- 
+
 }
 
 nav .hamburger-menu {
