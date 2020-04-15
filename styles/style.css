@@ -189,15 +189,19 @@ hr {
     margin-left: 3%;
     margin-top: 6%;
   }
-  .menu {
+  #menu {
     background-color: #9a1750;
+    width: fit-content;
+    
   }
-  .hamburger {
-    margin-left: 2px;
+  #menuIcon {
+    margin-left: 5px;
   }
   form {
-    width: 300px;
+    display: flex;
+    flex-direction: column;
   }
+  
 
   div.container,
   h1 {
@@ -375,6 +379,7 @@ nav {
   color: white;
   width: 100%;
   position: fixed;
+ 
 }
 
 nav .hamburger-menu {
