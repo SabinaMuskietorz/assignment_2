@@ -189,6 +189,15 @@ hr {
     margin-left: 3%;
     margin-top: 6%;
   }
+  .menu {
+    background-color: #9a1750;
+  }
+  .hamburger {
+    margin-left: 2px;
+  }
+  form {
+    width: 300px;
+  }
 
   div.container,
   h1 {
@@ -312,6 +321,9 @@ form button[type="submit"] {
     transform: scale(0.95);
   }
 }
+
+
+
 
 form button[type="submit"]:active {
   animation: btn-animation 0.2s linear 0s alternate 2;
