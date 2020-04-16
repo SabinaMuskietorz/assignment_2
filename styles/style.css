@@ -132,6 +132,7 @@ hr {
   transition: all .3s;
   overflow: hidden;
   position: relative;
+  z-index: -1;
 }
 
 .gallery {
@@ -246,6 +247,7 @@ form {
   padding-top: 60px;
   width: 850px;
   margin: 50px auto;
+  z-index: -1;
 }
 
 .input-block {
@@ -424,6 +426,7 @@ nav .hamburger-menu.open {
   list-style-type: none;
   font-weight: bold;
   font-size: 1.5em;
+  z-index: 1;
 }
 
 .menu li {
