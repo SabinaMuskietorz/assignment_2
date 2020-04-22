@@ -33,9 +33,12 @@ i {
 .social {
   list-style-type: none;
   text-decoration: none;
-  position: relative;
-  padding-top: 3%;
+  
+  padding-bottom: 100px;
   overflow-y: hidden;
+  display: flex;
+  flex-direction: column;
+  float: right;
 }
 
 /*about styles*/
@@ -457,7 +460,7 @@ ul {
   overflow: auto;
   list-style-type: none;
   text-align: center;
-  bottom: 35%;
+ 
   color: black;
 }
 
