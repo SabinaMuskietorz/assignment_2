@@ -46,6 +46,8 @@ i {
   display: flex;
   flex-direction: column;
   padding-top: 6em;
+  max-width: 900px;
+  padding-left: 300px;
 }
 
 .myphoto {
@@ -109,13 +111,6 @@ body {
   font-family: 'Roboto Slab', serif;
 }
 
-hr {
-  margin-top: 1rem;
-  margin-bottom: 1rem;
-  border: 0;
-  border-top: 1px solid rgba(0, 0, 0, 0.1);
-}
-
 .container {
   /*width: 80rem;*/
   /*margin: 2rem auto;*/
@@ -132,7 +127,6 @@ hr {
   transition: all .3s;
   overflow: hidden;
   position: relative;
- 
 }
 
 .gallery {
@@ -211,6 +205,10 @@ hr {
     padding: 20px;
   }
 
+  .resume {
+    padding-left: 20px;
+  }
+
   div.container,
   h1 {
     text-align: left;
@@ -231,7 +229,6 @@ hr {
 
 h3 {
   text-align: center;
-
   color: black;
   text-transform: uppercase;
   font-family: 'Roboto Slab', serif;
