@@ -33,7 +33,7 @@ i {
 .social {
   list-style-type: none;
   text-decoration: none;
-  
+
   padding-bottom: 100px;
   overflow-y: hidden;
   display: flex;
@@ -170,11 +170,13 @@ body {
 .gallery-item:hover {
   box-shadow: 0 10px 20px rgba(0, 0, 0, 0.8);
 }
+
 .text {
   font-family: 'Roboto Slab', serif;
   color: white;
   font-size: 2.5em;
 }
+
 .text a {
   color: white;
   font-size: 2.5em;
@@ -464,7 +466,7 @@ ul {
   overflow: auto;
   list-style-type: none;
   text-align: center;
- 
+
   color: black;
 }
 

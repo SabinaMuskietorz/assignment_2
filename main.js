@@ -18,11 +18,11 @@ function toggleMenu() {
 
 let myImage = document.querySelector('img');
 
-myImage.onclick = function() {
-    let mySrc = myImage.getAttribute('src');
-    if(mySrc === 'images/pic2.jpg') {
-      myImage.setAttribute ('src','images/portfoliopic21.jpg');
-    } else  {
-      myImage.setAttribute ('src','images/pic2.jpg');
-    }
+myImage.onclick = function () {
+  let mySrc = myImage.getAttribute('src');
+  if (mySrc === 'images/pic2.jpg') {
+    myImage.setAttribute('src', 'images/portfoliopic21.jpg');
+  } else {
+    myImage.setAttribute('src', 'images/pic2.jpg');
+  }
 }
