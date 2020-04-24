@@ -38,7 +38,7 @@ i {
   overflow-y: hidden;
   display: flex;
   flex-direction: column;
-  float: right;
+  float: left;
 }
 
 /*about styles*/
