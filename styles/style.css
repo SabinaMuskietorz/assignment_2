@@ -393,6 +393,7 @@ nav {
   color: white;
   width: 100%;
   position: fixed;
+  
 
 }
 
@@ -400,6 +401,7 @@ nav .hamburger-menu {
   max-height: 0;
   overflow-y: hidden;
   transition: max-height 0.5s ease-in-out;
+  
 }
 
 nav .hamburger-menu.open {
@@ -411,11 +413,12 @@ nav .hamburger-menu.open {
   padding: 2.5vh 2vw;
   cursor: pointer;
   color: white;
+  
 }
 
-/*.hamburger:hover {
-  color: #9a1750;
-}*/
+.hamburger:hover {
+  transform: scale(1.3);
+}
 
 .row {
   display: flex;
@@ -498,7 +501,9 @@ li.active a {
 
 .social :hover {
   color: #9a1750;
-}
+  transform: scale(1.1);
+  }
+
 
 main {
   padding: 3em 3em;
