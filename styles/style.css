@@ -413,9 +413,9 @@ nav .hamburger-menu.open {
   color: white;
 }
 
-.hamburger:hover {
+/*.hamburger:hover {
   color: #9a1750;
-}
+}*/
 
 .row {
   display: flex;
@@ -440,9 +440,9 @@ nav .hamburger-menu.open {
   padding: 0.5em 0.5em;
 }
 
-.menu li.active {
+/*.menu li.active {
   background: #9a1750;
-}
+}*/
 
 .menu li.active a {
   color: #fff;
@@ -454,9 +454,9 @@ a {
   color: white;
 }
 
-.menu li:hover {
+/*.menu li:hover {
   background: #9a1750;
-}
+}*/
 
 .menu li:hover a {
   color: #fff;
@@ -487,9 +487,9 @@ li a {
   transition: all 0.5s ease;
 }
 
-li a:hover {
+/*li a:hover {
   color: #9a1750;
-}
+}*/
 
 li.active a {
   font-weight: bold;
