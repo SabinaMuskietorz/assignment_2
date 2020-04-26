@@ -121,10 +121,11 @@ body {
   margin-left: 10%;
   padding-right: 5%;
   padding-top: 3em;
+  width: 100%;
 }
 
 .gallery-item {
-  max-width: 100%;
+  /*max-width: 100%;*/
   border-radius: 5px;
   box-shadow: 0 5px 20px rgba(0, 0, 0, 0.5);
   transition: all .3s;

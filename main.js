@@ -16,7 +16,7 @@ function toggleMenu() {
   }
 }
 
-let myImage = document.querySelector('img');
+let myphoto = document.querySelector(".myphoto");
 
 myImage.onclick = function () {
   let mySrc = myImage.getAttribute('src');
