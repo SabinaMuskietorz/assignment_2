@@ -26,3 +26,23 @@ myImage.onclick = function () {
     myImage.setAttribute('src', 'images/pic2.jpg');
   }
 }
+
+let mypictures=["images/pic2.jpg", "images/portfoliopic21new.jpg", "images/pic3.jpg"];
+let i=1;
+function prev() {
+  let slider = document.getElementById("slider");
+  i--;
+  if(i < 0) {
+    i = mypictures.length-1;
+}
+  slider.src=mypictures[i];
+}
+function next() {
+  let slider = document.getElementById("slider");
+  i++;
+  if(i >= mypictures.length) {
+    i = 0;
+}
+  img.src=mypictures[i];
+
+}
