@@ -29,21 +29,23 @@ myImage.onclick = function () {
 }
 
 let images = ['images/pic2.jpg', 'images/portfoliopic21new.jpg', 'images/pic3.jpg'];
-let i=0;
+let i = 0;
+
 function prev() {
   let slider = document.getElementById("#slider");
   i--;
-  if(i < 0) {
-    i = images.length-1;
-}
+  if (i < 0) {
+    i = images.length - 1;
+  }
   slider.src = images[i];
 }
+
 function next() {
   let slider = document.getElementById("#slider");
   i++;
-  if(i >= images.length) {
+  if (i >= images.length) {
     i = 0;
-}
+  }
   slider.src = images[i];
 
 }
