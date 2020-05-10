@@ -42,7 +42,7 @@ i {
 }
 #slider {
   height: 220px;
-  position: relative;
+  
 }
 button {
   padding:5px;
@@ -122,6 +122,7 @@ body {
   filter: opacity(70%);
   margin: 0;
 }*/
+
 /*portfolio styles*/
 :root {
   font-size: 75.5%;
@@ -198,6 +199,8 @@ body {
   padding: 16px 32px;
   font-family: 'Roboto Slab', serif;
 }
+
+/* media queries*/
 
 @media (max-width: 500px) {
   .gallery-item {
@@ -404,6 +407,8 @@ form button[type="submit"]:hover {
 }
 
 /*general styles */
+
+/*hamburger nav*/
 nav {
   color: white;
   width: 100%;

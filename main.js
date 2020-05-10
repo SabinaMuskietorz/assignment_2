@@ -1,3 +1,4 @@
+/* hamburger navigation */
 let menuOpen = false;
 
 function toggleMenu() {
@@ -15,7 +16,7 @@ function toggleMenu() {
     icon.classList.add("fa-bars");
   }
 }
-
+/* picture change on click */
 let myphoto = document.querySelector(".myphoto");
 
 myImage.onclick = function () {
@@ -27,22 +28,22 @@ myImage.onclick = function () {
   }
 }
 
-let mypictures=["images/pic2.jpg", "images/portfoliopic21new.jpg", "images/pic3.jpg"];
-let i=1;
+let images = ['images/pic2.jpg', 'images/portfoliopic21new.jpg', 'images/pic3.jpg'];
+let i=0;
 function prev() {
-  let slider = document.getElementById("slider");
+  let slider = document.getElementById("#slider");
   i--;
   if(i < 0) {
-    i = mypictures.length-1;
+    i = images.length-1;
 }
-  slider.src=mypictures[i];
+  slider.src = images[i];
 }
 function next() {
-  let slider = document.getElementById("slider");
+  let slider = document.getElementById("#slider");
   i++;
-  if(i >= mypictures.length) {
+  if(i >= images.length) {
     i = 0;
 }
-  img.src=mypictures[i];
+  slider.src = images[i];
 
 }
