@@ -27,28 +27,6 @@ myImage.onclick = function () {
     myImage.setAttribute('src', 'images/pic2.jpg');
   }
 }
-
-let images = ['images/pic2.jpg', 'images/portfoliopic21new.jpg', 'images/pic3.jpg'];
-let i = 0;
-
-function prev() {
-  let slider = document.getElementById("#slider");
-  i--;
-  if (i < 0) {
-    i = images.length - 1;
-  }
-  slider.src = images[i];
-}
-
-function next() {
-  let slider = document.getElementById("#slider");
-  i++;
-  if (i >= images.length) {
-    i = 0;
-  }
-  slider.src = images[i];
-
-}
 //quote array
 let quotes = ["Blank", "\"Either I will find a way, or I will make one.\" - Philip Sidney", 
 "\"Our greatest weakness lies in giving up. The most certain way to succeed is always to try just one more time.\"- Thomas A. Edison", 
