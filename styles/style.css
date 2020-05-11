@@ -40,25 +40,6 @@ i {
   flex-direction: row;
   float: right;
 }
-
-#slider {
-  height: 220px;
-
-}
-
-button {
-  padding: 5px;
-  height: 30px;
-  width: 50px;
-  color: red;
-  margin: 5px;
-  margin-top: 50px;
-}
-
-#b2 {
-  margin-left: 220px;
-}
-
 .quote {
   font-family: 'Roboto Slab', serif;
   font-size: 1.5em;
