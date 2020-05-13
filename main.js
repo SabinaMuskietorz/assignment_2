@@ -38,9 +38,9 @@ let randNum = Math.floor(Math.random() + 1);
 
 function genQuote() {
   
- let myQuotes = document.getElementById(".quote");
+ let genQuote = document.getElementById(".quote");
  randNum ++;
- myQuotes.src = quotes[randNum];
+ genQuote.src = quotes[randNum];
 }
 
 
