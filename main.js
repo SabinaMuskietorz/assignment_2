@@ -17,9 +17,9 @@ function toggleMenu() {
   }
 }
 /* picture change on click */
-//let myImage = document.querySelector('myPhoto');
+/*let myImage = document.querySelector('myPhoto');
 
-/*myImage.onclick = function () {
+myImage.onclick = function () {
   let mySrc = myImage.getAttribute('src');
   if (mySrc === 'images/pic2.jpg') {
     myImage.setAttribute('src', 'images/portfoliopic21.jpg');

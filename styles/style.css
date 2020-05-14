@@ -72,7 +72,7 @@ i {
   padding-left: 300px;
 }
 
-#myphoto {
+.myphoto {
   position: fixed;
   right: 5%;
   margin-top: 5%;
@@ -83,7 +83,7 @@ i {
   margin-right: 2em;
 }
 
-#myphoto:hover {
+.myphoto:hover {
   filter: grayscale(1);
   border-style: none;
   border-radius: 100%;
