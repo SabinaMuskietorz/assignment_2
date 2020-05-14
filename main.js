@@ -17,16 +17,16 @@ function toggleMenu() {
   }
 }
 /* picture change on click */
-let myImage = document.querySelector('myphoto');
+//let myImage = document.querySelector('myPhoto');
 
-myImage.onclick = function () {
+/*myImage.onclick = function () {
   let mySrc = myImage.getAttribute('src');
   if (mySrc === 'images/pic2.jpg') {
     myImage.setAttribute('src', 'images/portfoliopic21.jpg');
   } else {
     myImage.setAttribute('src', 'images/pic2.jpg');
   }
-}
+}*/
 //quote array
 let quotes = ["\" Either I will find a way, or I will make one. - Philip Sidney \"", 
 "\"Our greatest weakness lies in giving up. The most certain way to succeed is always to try just one more time.Thomas A. Edison\"", 
@@ -41,9 +41,10 @@ function genQuote() {
       
 let randNum = Math.floor((Math.random() * 6) + 1);
 
-let genQuote = document.querySelector('quote');
+let genQuote = document.querySelector(".quote");
 
  //genQuote.src = quotes[randNum];
+ document.querySelector(".quote").innerHTML = quotes[randNum];
 
 
 
