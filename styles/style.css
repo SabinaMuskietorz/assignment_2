@@ -40,7 +40,7 @@ i {
   flex-direction: row;
   float: right;
 }
-.quote {
+#quote {
   font-family: 'Roboto Slab', serif;
   font-size: 1.5em;
   color: rgba(11, 12, 12, 0.55);
@@ -83,7 +83,7 @@ i {
   margin-right: 2em;
 }
 
-.myphoto:hover {
+#myphoto:hover {
   filter: grayscale(1);
   border-style: none;
   border-radius: 100%;

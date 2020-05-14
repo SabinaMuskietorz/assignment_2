@@ -17,7 +17,7 @@ function toggleMenu() {
   }
 }
 /* picture change on click */
-let myImage = document.querySelector('#myphoto');
+let myImage = document.querySelector('myphoto');
 
 myImage.onclick = function () {
   let mySrc = myImage.getAttribute('src');
@@ -41,7 +41,7 @@ function genQuote() {
       
 let randNum = Math.floor((Math.random() * 6) + 1);
 
-let genQuote = document.querySelector(".quote");
+let genQuote = document.querySelector('quote');
 
  //genQuote.src = quotes[randNum];
 
