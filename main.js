@@ -34,7 +34,7 @@ let quotes = ["Blank", "\"Either I will find a way, or I will make one.\" - Phil
 "\"Never give up, for that is just the place and time that the tide will turn.\"- Harriet Beecher Stowe", 
 "\"I know where I'm going and I know the truth, and I don't have to be what you want me to be. I'm free to be what I want.\"- Muhammad Ali", 
 "\"If you always put limit on everything you do, physical or anything else. It will spread into your work and into your life. There are no limits. There are only plateaus, and you must not stay there, you must go beyond them.\"- Bruce Lee",];
-let randNum = Math.floor(Math.random() + 1);
+let randNum = Math.floor(Math.random() * 7) + 1;
 
 function genQuote() {
   
