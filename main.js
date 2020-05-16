@@ -16,6 +16,14 @@ function toggleMenu() {
     icon.classList.add("fa-bars");
   }
 }
+
+function changePic() {
+  document.getElementById("profilePic").src = "images/portfoliopic21new.jpg";
+}
+
+function normalPic() {
+  document.getElementById("profilePic").src = "images/pic2.jpg";
+}
 /* picture change on click */
 /*let myImage = document.querySelector('myPhoto');
 

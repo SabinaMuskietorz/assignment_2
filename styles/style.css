@@ -72,15 +72,19 @@ i {
   padding-left: 300px;
 }
 
-.myphoto {
+#profilePic {
   position: fixed;
   right: 5%;
   margin-top: 5%;
   border-style: none;
+  border-radius: 100%;
   filter: grayscale(0);
   width: 10vw;
   float: right;
   margin-right: 2em;
+  background: url(pic2.jpg) no-repeat;
+  background: url(portfoliopic21new.jpg) no-repeat;
+  transition: opacity .25s ease-in-out;
 }
 
 .myphoto:hover {
@@ -90,6 +94,30 @@ i {
   transition: background-size 0.3s ease;
   filter: grayscale(1);
   transition: background-size 0.3s;
+}
+.btn-get-resume .btn {
+  font-size: 1.3rem;
+  opacity: .75;
+  transition: opacity .25s ease-in-out;
+  color: rgb(33, 33, 139);
+}
+
+.btn-get-resume:hover {
+  opacity: 0.5;
+}
+
+.btn {
+  text-align: center;
+  white-space: nowrap;
+  /*vertical-align: middle;*/
+  cursor: pointer;
+  background-color: rgb(242, 243, 247);
+  border: 2px;
+  border-radius: 4px;
+  text-decoration: none;
+  position: fixed;
+  right: 8%;
+  margin-top: 20%;
 }
 
 .resheader {
