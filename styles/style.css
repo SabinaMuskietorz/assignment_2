@@ -5,13 +5,14 @@
   font-weight: bold;
   text-align: center;
   color: black;
+  padding-top: 12%;
 }
 
 .sechead {
   font-family: 'Roboto Slab', serif;
   font-size: 2em;
   text-align: center;
-  padding-top: 10%;
+  padding-top: 5%;
   color: black;
 }
 
@@ -59,6 +60,27 @@ i {
   color: black;
   padding-top: 50px;
 }
+#slider{
+  height:200px;
+  width:200px;
+  margin:auto;
+  padding-left: 20%;
+  overflow:hidden;
+  position: fixed;
+  right: 5%;
+  margin-top: 7%;
+ 
+}
+
+#imgSld{
+  height:200px;
+  width:200px;
+  margin:auto;
+  cursor:pointer;
+  margin-top: 10px;
+  float: right;
+  
+}
 
 /*about styles*/
 .resume {
@@ -75,7 +97,7 @@ i {
 #profilePic {
   position: fixed;
   right: 5%;
-  margin-top: 5%;
+  margin-top: 7%;
   border-style: none;
   border-radius: 100%;
   filter: grayscale(0);
@@ -279,7 +301,7 @@ body {
   display: none;
 }
 .mainhead {
-  padding-top: 80px;
+  padding-top: 120px;
 }
   div.text {
     font-size: 2.5em;
@@ -289,8 +311,10 @@ body {
     }
   .social {
     flex-direction: row;
-    
-  }
+    }
+    #slider {
+      visibility: hidden;
+    }
 }
 
 /* form styles */
