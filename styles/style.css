@@ -188,10 +188,10 @@ body {
   /*background: url("desk-laptop-macbook-pro-working-69432.jpg");*/
   background-size: cover;
   background-position: center;
-  background: #355C7D;
-  background: -webkit-linear-gradient(to right, #C06C84, #6C5B7B, #355C7D);
-  background: linear-gradient(to right, #C06C84, #6C5B7B, #355C7D);
-}
+  background: #d9a7c7; 
+  background: -webkit-linear-gradient(to right, #fffcdc, #d9a7c7); 
+  background: linear-gradient(to right, #fffcdc, #d9a7c7); 
+  }
 
 /*portfolio styles*/
 :root {
