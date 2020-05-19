@@ -1,4 +1,5 @@
 /* hamburger navigation */
+//pen from Andrew Dean but modified
 let menuOpen = false;
 
 function toggleMenu() {
@@ -18,6 +19,7 @@ function toggleMenu() {
 }
 
 /* picture change */
+//code from class but modified
 function changePic() {
   document.getElementById("profilePic").src = "images/portfoliopic21new.jpg";
 }
@@ -27,6 +29,7 @@ function normalPic() {
 }
 
 /* quote array */
+//code from class but modified
 let quotes = ["\" Either I will find a way, or I will make one. - Philip Sidney \"",
   "\"Our greatest weakness lies in giving up. The most certain way to succeed is always to try just one more time.Thomas A. Edison\"",
   "\"You are never too old to set another goal or to dream a new dream.- C.S Lewis\"",
@@ -46,6 +49,7 @@ console.log(quotes[randNum]);
 }
 
 /* picture slider */
+//code from sololearn but modified
 let images = ['images/weathernew.png', 'images/todolistnew.png', 'images/quotesnew.png', 'images/java_portfolionew.png'];
 let i = 0;
 
