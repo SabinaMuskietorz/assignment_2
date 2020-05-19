@@ -131,7 +131,6 @@ i {
 .btn {
   text-align: center;
   white-space: nowrap;
-  /*vertical-align: middle;*/
   cursor: pointer;
   background-color: rgb(242, 243, 247);
   border: 2px;
@@ -141,6 +140,7 @@ i {
   right: 8%;
   margin-top: 20%;
 }
+/* www.csswand.dev */
   .btn:hover {
   animation: swing 1s ease;
   animation-iteration-count: 1;
@@ -165,7 +165,6 @@ i {
   transform: translateX(0);
   }
 }
-
 
 /*.resheader {
   text-transform: uppercase;
