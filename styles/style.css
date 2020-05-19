@@ -260,17 +260,20 @@ body {
 
 @media (max-width: 500px) {
   .gallery-item {
-    max-width: 40%;
+    max-width: 90%;
     grid-column: 8;
     font-family: 'Roboto Slab', serif;
     text-align: left;
-    margin-left: 10%;
+    /*margin-left: 5%;*/
     margin-top: 6%;
+    margin-bottom: 6%;
   }
 
   #menu {
     background-color: #9a1750;
-    width: fit-content;
+    /*width: fit-content;*/
+    background-size: cover;
+    background-position: center;
   }
 
   .button {
