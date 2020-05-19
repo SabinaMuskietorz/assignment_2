@@ -57,7 +57,7 @@ function slideImg() {
   document.getElementById("imgSld").transition = ".5s";
   document.getElementById("imgSld").src = images[i];
 
-  if (i < images.length - 1) {
+  if (i <images.length - 1) {
     i++;
   } else
     i = 0;
