@@ -59,7 +59,9 @@ function slideImg() {
 
   if (i <images.length - 1) {
     i++;
-  } else
+  }
+   else {
     i = 0;
+}
 }
 setInterval(slideImg, 2500);
