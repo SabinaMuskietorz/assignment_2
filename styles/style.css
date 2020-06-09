@@ -200,10 +200,10 @@ body {
 }
 
 .container {
-  margin-left: 10%;
+  margin-left: 12%;
   padding-right: 5%;
   padding-top: 3em;
-  width: 100%;
+  width: 85%;
 }
 
 .gallery-item {
@@ -490,7 +490,7 @@ form button[type="submit"]:hover {
 /*hamburger nav*/
 nav {
   color: white;
-  width: 50%;
+  width: 30%;
   position: fixed;
   z-index: 1;
 }
@@ -541,7 +541,8 @@ nav .hamburger-menu.open {
 }
 
 .menu li.active a {
-  color: #fff;
+  color: #F48FB1;
+  font-size: 1.4em;
 }
 
 a {
@@ -550,7 +551,7 @@ a {
 }
 
 .menu li:hover a {
-  color: #fff;
+  color: #F48FB1;
 }
 
 ul {

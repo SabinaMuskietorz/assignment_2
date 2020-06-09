@@ -1,5 +1,5 @@
 /* hamburger navigation */
-//pen from Andrew Dean but modified
+//pen by Andrew Dean but modified https://codepen.io/andydean565/pen/bGdKMaa?editors=1111
 let menuOpen = false;
 
 function toggleMenu() {
@@ -49,7 +49,7 @@ console.log(quotes[randNum]);
 }
 
 /* picture slider */
-//code from sololearn but modified
+//code from sololearn but modified https://code.sololearn.com/WtzvqK42siEg/#js
 let images = ['images/weathernew.png', 'images/todolistnew.png', 'images/quotesnew.png', 'images/java_portfolionew.png'];
 let i = 0;
 
@@ -64,4 +64,4 @@ function slideImg() {
     i = 0;
 }
 }
-setInterval(slideImg, 2500);
+setInterval(slideImg, 2500); // in milliseconds
